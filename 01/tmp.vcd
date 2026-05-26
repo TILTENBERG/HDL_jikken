@@ -1,0 +1,95 @@
+$date
+	Tue May 26 13:58:34 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ms
+$end
+$scope module testbench01 $end
+$var wire 1 ! z6 $end
+$var wire 1 " z5 $end
+$var wire 1 # z4 $end
+$var wire 1 $ z3 $end
+$var wire 1 % z2 $end
+$var wire 1 & z1 $end
+$var wire 1 ' z0 $end
+$var reg 1 ( x $end
+$var reg 1 ) y $end
+$scope module g00 $end
+$var wire 1 ( a $end
+$var wire 1 ' c $end
+$upscope $end
+$scope module g01 $end
+$var wire 1 ( a $end
+$var wire 1 ) b $end
+$var wire 1 & c $end
+$upscope $end
+$scope module g02 $end
+$var wire 1 ( a $end
+$var wire 1 ) b $end
+$var wire 1 % c $end
+$upscope $end
+$scope module g03 $end
+$var wire 1 ( a $end
+$var wire 1 ) b $end
+$var wire 1 $ c $end
+$upscope $end
+$scope module g04 $end
+$var wire 1 ( a $end
+$var wire 1 ) b $end
+$var wire 1 # c $end
+$upscope $end
+$scope module g05 $end
+$var wire 1 ( a $end
+$var wire 1 ) b $end
+$var wire 1 " c $end
+$upscope $end
+$scope module g06 $end
+$var wire 1 ( a $end
+$var wire 1 ) b $end
+$var wire 1 ! c $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0)
+0(
+1'
+0&
+1%
+0$
+1#
+0"
+1!
+$end
+#100
+1$
+0#
+1"
+0!
+1)
+#200
+0'
+0)
+1(
+#300
+1&
+0%
+0"
+1!
+1)
+#400
+1'
+0&
+1%
+0$
+1#
+0)
+0(
+#500
