@@ -1,0 +1,132 @@
+$date
+	Sat May 30 13:49:43 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ms
+$end
+$scope module testbench05 $end
+$var wire 1 ! b2 $end
+$var wire 1 " b1 $end
+$var wire 1 # b0 $end
+$var reg 1 $ x0 $end
+$var reg 1 % x1 $end
+$var reg 1 & x2 $end
+$var reg 1 ' x3 $end
+$var reg 1 ( x4 $end
+$var reg 1 ) x5 $end
+$var reg 1 * x6 $end
+$var reg 1 + x7 $end
+$scope module pe $end
+$var wire 1 # b0 $end
+$var wire 1 " b1 $end
+$var wire 1 ! b2 $end
+$var wire 1 $ x0 $end
+$var wire 1 % x1 $end
+$var wire 1 & x2 $end
+$var wire 1 ' x3 $end
+$var wire 1 ( x4 $end
+$var wire 1 ) x5 $end
+$var wire 1 * x6 $end
+$var wire 1 + x7 $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0+
+0*
+0)
+0(
+0'
+0&
+0%
+0$
+0#
+0"
+0!
+$end
+#100
+1#
+1"
+1!
+1+
+#200
+0#
+1"
+1!
+1*
+0+
+#300
+1#
+0"
+1!
+1)
+0*
+#400
+0#
+1(
+0)
+#500
+1#
+1"
+0!
+1'
+0(
+#600
+0#
+1&
+0'
+#700
+1#
+0"
+1%
+0&
+#800
+0#
+1$
+0%
+#900
+1#
+1"
+1!
+1%
+1&
+1'
+1(
+1)
+1*
+1+
+#1000
+0#
+0+
+#1100
+1#
+0"
+0*
+#1200
+0#
+0)
+#1300
+1#
+1"
+0!
+0(
+#1400
+0#
+0'
+#1500
+1#
+0"
+0&
+#1600
+0#
+0%
+#1700
+0$
+#1800
